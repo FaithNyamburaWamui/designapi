@@ -1,0 +1,13 @@
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.images{
+    width:80px;
+    height: 100px;
+
+}
+.text{
+    overflow:hidden;
+    
+}

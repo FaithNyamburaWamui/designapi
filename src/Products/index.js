@@ -8,8 +8,8 @@ const Product = () => {
 
   return (
     <div className="details">
-      {/* {loading && <h2>Loading product ...</h2>}
-      {error.length > 0 && <h2>{error}</h2>} */}
+      {loading && <h2>Loading product ...</h2>}
+      {error.length > 0 && <h2>{error}</h2>}
       {product.length > 0
         ? product.map((prod) => (
           
