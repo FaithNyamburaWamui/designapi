@@ -32,8 +32,8 @@ function ProductNames() {
       <div className="background">
       <p>SALE 45% OFFx</p>
         <h1>Exclusive New Offer 2024</h1>
-        <button className="button">Shop Now<p className="search"><FaSearch/></p>
-        </button>
+       <button className="button"><p className="search"><FaSearch/></p><a href="index.js">Shop Now</a></button>
+        
 
       </div>
       </div>

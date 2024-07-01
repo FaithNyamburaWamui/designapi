@@ -7,6 +7,8 @@ const Product = () => {
   console.log({ product });
 
   return (
+    <div>
+      <h1 className="header">Products</h1>
     <div className="details">
       {loading && <h2>Loading product ...</h2>}
       {error.length > 0 && <h2>{error}</h2>}
@@ -21,6 +23,7 @@ const Product = () => {
               category={`${prod.category}`} />          
           ))
         : !loading && <h2>No product found</h2>}
+    </div>
     </div>
   );
 };
